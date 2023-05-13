@@ -1,0 +1,29 @@
+# Node.js
+node_modules/
+
+# Eleventy
+_site/
+
+# Bulma custom build
+src/assets/main.css
+
+# macOS
+.DS_Store
+
+# Visual Studio Code
+.vscode/
+
+# IDE-specific files
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools/
+.eclipse/
+.tmproj
+.tmproj.lock
+*.bak
+*.swp
+*~
+
+src/assets/main.css
