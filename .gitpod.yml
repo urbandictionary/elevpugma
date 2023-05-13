@@ -1,0 +1,9 @@
+tasks:
+  - name: Script Task
+    init: npm install
+    command: npm start
+
+ports:
+  - name: Frontend
+    port: 8080
+    onOpen: open-browser
