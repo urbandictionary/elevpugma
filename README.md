@@ -7,9 +7,7 @@ This template provides a starting point for projects using Eleventy, Pug templat
 Follow these steps to get the project up and running:
 
 1. Clone the repository or download the source code.
-2. Install the dependencies by running the following command:
-
-`npm install`
+2. Install the dependencies by running `npm install`
 
 ## Configuration
 
@@ -28,8 +26,12 @@ To create new Pug templates, follow these steps:
 
 ## Development
 
-To start the development server and watch for changes, run the following command:
+To start the development server and watch for changes, run `npm start`
 
-`npm start`
+This will start the Sass watcher and the Eleventy server concurrently. The Sass watcher will recompile the Sass files when changes are made, and the Eleventy server will serve the generated site at `http://localhost:8080/`.
 
-This will initiate the Sass watcher and the Eleventy server concurrently. The Sass watcher will recompile the Sass files when changes are made, and the Eleventy server will serve the generated site at `http://localhost:8080/`.
+## Links
+
+- [Eleventy Documentation](https://www.11ty.dev/docs/)
+- [Pug Documentation](https://pugjs.org/api/getting-started.html)
+- [Bulma Documentation](https://bulma.io/documentation/)
