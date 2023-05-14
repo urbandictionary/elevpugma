@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "node-sass --watch src/assets/main.scss src/assets/main.css",
-    "serve:eleventy": "npx eleventy --serve",
-    "start": "npm-run-all --parallel watch:sass serve:eleventy"
+    "sass:start": "node-sass src/assets/main.scss src/assets/main.css && node-sass --watch src/assets/main.scss src/assets/main.css",
+    "eleventy:start": "npx eleventy --serve",
+    "start": "npm-run-all --parallel sass:start eleventy:start"
   },
   "keywords": [],
   "author": "",
