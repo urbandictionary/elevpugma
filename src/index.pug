@@ -3,3 +3,5 @@ extends _layouts/default.pug
 block content
   h1.title Welcome to my Eleventy project!
   p This is a sample Pug content file.
+  section(x-data='{count:0}')
+    button.button(x-text='`Click count: ${count}`' @click='count++')
