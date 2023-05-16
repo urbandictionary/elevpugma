@@ -25,7 +25,7 @@ jobs:
         run: mkdir -p _site/assets
 
       - name: Compile Sass
-        run: node-sass src/assets/main.scss _site/assets/main.css
+        run: npx node-sass src/assets/main.scss _site/assets/main.css
 
       - name: Build Eleventy
         run: npx eleventy --output=_site
